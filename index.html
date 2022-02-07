@@ -31,14 +31,120 @@
     </style>
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <main>
+      <div class="bg-1"></div>
+      <div class="bg-2"></div>
 
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur harum
-      fuga natus aliquid cumque beatae id, voluptatibus ducimus, nam nisi quos,
-      illo voluptate exercitationem eligendi delectus cupiditate numquam
-      inventore maiores?
-    </p>
+      <div class="container row">
+        <div class="col left">
+          <div class="mobile-wrap">
+            <div class="mobile">
+              <div class="user-wrap">
+                <button type="button" class="btn-back" aria-label="back">
+                  <i class="icon-angle-left"></i>
+                </button>
+                <img src="./dist/images/avatar.jpg" alt="" class="avatar" />
+                <div class="user">
+                  <p class="name">Samuel Green</p>
+                  <small class="status">Available to Walk</small>
+                </div>
+                <button type="button" class="btn-more">&#8942;</button>
+              </div>
+
+              <div class="convo-wrap">
+                <div class="received">
+                  <p>That sounds great. I'd be happy with that.</p>
+                </div>
+
+                <div class="received">
+                  <p>Could you send over some pictures of your dog. please?</p>
+                </div>
+
+                <div class="file-group sent">
+                  <img src="./dist/images/dog-image-1.jpg" alt="" />
+                  <img src="./dist/images/dog-image-2.jpg" alt="" />
+                  <img src="./dist/images/dog-image-3.jpg" alt="" />
+                </div>
+
+                <div class="sent">
+                  <p>Here are a few pictures. She's a happy girl!</p>
+                </div>
+
+                <div class="sent">
+                  <p>Can you make it?</p>
+                </div>
+
+                <div class="received">
+                  <p>
+                    She looks so happy! The time we discussed works. How long
+                    shall I take her out for
+                  </p>
+                </div>
+
+                <div class="radio received">
+                  <label for="thirty-minutes">
+                    <input
+                      type="radio"
+                      name="service"
+                      value="30 minutes walk"
+                      id="thirty-minutes"
+                    />
+                    30 minutes walk <strong>$29</strong>
+                    <i class="icon-circle-thin"></i>
+                  </label>
+                </div>
+
+                <div class="radio received">
+                  <label for="one-hour">
+                    <input
+                      type="radio"
+                      name="service"
+                      value="1 hour walk"
+                      id="one-hour"
+                    />
+                    1 hour walk <strong>$49</strong>
+                    <i class="icon-circle-thin"></i>
+                  </label>
+                </div>
+              </div>
+
+              <div class="keypad-wrap">
+                <form id="form-input">
+                  <div class="input-group">
+                    <input
+                      type="text"
+                      placeholder="Type a message.."
+                      id="input-message"
+                      autocomplete="off"
+                      aria-label="user input"
+                    />
+                    <button
+                      type="submit"
+                      class="btn-submit"
+                      aria-label="submit"
+                    >
+                      <i class="icon-right-circle"></i>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col right">
+          <div class="content">
+            <h1>Simple booking</h1>
+            <p>
+              Stay in touch with our dog walkers through the chat interface.
+              This makes it easy to discuss arrangements and make bookings. Once
+              the walk has been completed you can rate your walker and book
+              again all through the chat.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
 
     <div class="attribution">
       Challenge by

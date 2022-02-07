@@ -1,7 +1,4 @@
-@use "abstracts";
-@use "vendors";
-@use "base";
-@use "layout";
-@use "components";
-@use "pages";
-@use "themes";
+@use "abstracts"; //contains global mixins, functions, helper selectors, etc.
+@use "vendors"; //contains 3rd-party styles
+@use "base"; //contains global styles, such as resets, typography, colors, etc.
+@use "pages"; //contains page-specific styling, if necessary
