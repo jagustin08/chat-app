@@ -31,5 +31,6 @@
     "gulp-terser": "^2.1.0",
     "postcss": "^8.4.6",
     "sass": "^1.49.7"
-  }
+  },
+  "dependencies": {}
 }

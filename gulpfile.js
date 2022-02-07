@@ -60,7 +60,7 @@ function browserSyncServe(cb) {
 }
 
 // Automatically reload the browser on save
-function browserSyncReload() {
+function browserSyncReload(cb) {
   browserSync.reload();
   cb();
 }

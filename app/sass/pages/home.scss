@@ -99,10 +99,16 @@ img {
   height: 67px;
   display: flex;
   justify-content: space-between;
-  padding: 20px 15px 0 5px;
+  padding: 19px 15px 0 9px;
   align-items: center;
   border-radius: 0 0 5px 5px;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.185);
+
+  .icon-angle-left {
+    transform: rotateY(-180deg);
+    width: 4px;
+    height: 14px;
+  }
 
   button {
     border: 0;
@@ -110,6 +116,7 @@ img {
     color: #fff;
     outline: none;
     cursor: pointer;
+    margin-right: 2px;
   }
 
   .avatar {
@@ -140,7 +147,7 @@ img {
 .convo-wrap {
   height: 364px;
   overflow: auto;
-  padding: 11px 10px 0;
+  padding: 11px 7px 0;
   font-size: 0.5rem;
 
   &::-webkit-scrollbar {
@@ -175,11 +182,12 @@ img {
 
     p {
       display: inline-block;
-      padding: 8px;
-      max-width: 130px;
+      max-width: 128px;
       overflow-wrap: break-word;
       word-wrap: break-word;
       hyphens: auto;
+      padding: 6px 8px;
+      line-height: 11px;
     }
   }
 
@@ -229,7 +237,7 @@ img {
   .radio {
     width: 10rem;
     display: inline-block;
-    padding: 9px 10px;
+    padding: 7px 10px;
     background: linear-gradient(
       to right,
       var(--lightMagenta) 0%,
@@ -309,10 +317,16 @@ img {
     border: 0;
     position: absolute;
     top: 50%;
-    right: 5px;
+    right: -1px;
     transform: translateY(-50%);
     font-size: 25px;
     color: var(--veryDarkDesaturatedViolet);
+    display: flex;
+
+    .icon-right-circle {
+      width: 25px;
+      height: 25px;
+    }
   }
 }
 

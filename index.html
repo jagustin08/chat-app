@@ -24,6 +24,8 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        position: fixed;
+        inset: auto 0 0 0;
       }
       .attribution a {
         color: hsl(228, 45%, 44%);
@@ -41,7 +43,20 @@
             <div class="mobile">
               <div class="user-wrap">
                 <button type="button" class="btn-back" aria-label="back">
-                  <i class="icon-angle-left"></i>
+                  <svg viewBox="0 0 5.92 10.43" class="icon-angle-left">
+                    <g id="Layer_2" data-name="Layer 2">
+                      <g id="Layer_1-2" data-name="Layer 1">
+                        <polyline
+                          points="1.01 9.42 4.91 5.21 1.01 1.01"
+                          fill="none"
+                          stroke="#fff"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2.02"
+                        />
+                      </g>
+                    </g>
+                  </svg>
                 </button>
                 <img src="./dist/images/avatar.jpg" alt="" class="avatar" />
                 <div class="user">
@@ -123,7 +138,28 @@
                       class="btn-submit"
                       aria-label="submit"
                     >
-                      <i class="icon-right-circle"></i>
+                      <svg class="icon-right-circle" viewBox="0 0 22.98 22.98">
+                        <g id="Layer_2" data-name="Layer 2">
+                          <g id="Layer_1-2" data-name="Layer 1">
+                            <g>
+                              <circle
+                                cx="11.49"
+                                cy="11.49"
+                                r="11.49"
+                                fill="#3e2856"
+                              />
+                              <polyline
+                                points="9.54 15.7 13.44 11.49 9.54 7.28"
+                                fill="none"
+                                stroke="#fff"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2.02"
+                              />
+                            </g>
+                          </g>
+                        </g>
+                      </svg>
                     </button>
                   </div>
                 </form>
@@ -152,6 +188,7 @@
         >Frontend Mentor</a
       >. Coded by <a href="#">Jayson Agustin</a>.
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="./dist/js/main.js"></script>
   </body>
 </html>
