@@ -103,7 +103,7 @@ img {
   height: 67px;
   display: flex;
   justify-content: space-between;
-  padding: 19px 15px 0 9px;
+  padding: 19px 6px 0 9px;
   align-items: center;
   border-radius: 0 0 5px 5px;
   box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.185);
@@ -121,6 +121,7 @@ img {
     outline: none;
     cursor: pointer;
     margin-right: 2px;
+    font-size: 12px;
   }
 
   .avatar {
